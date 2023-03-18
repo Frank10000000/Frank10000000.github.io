@@ -1,24 +1,50 @@
+
+@font-face {
+  font-family: "Fuentes";
+  src: url("Fuentes/Starjout.ttf");
+}
+
 html{
-	background-image: url("Imagenes/Marte.jpg");
+	font-family: "Fuentes", "Bitstream Vera Serif", serif;
+	background-image: url("Imagenes/Espacio.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 
 
+
+div#caja{
+	border: 15px solid rgba(0,0,0,0.7);
+	border-radius: 25px;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 10%;
+	background-image: url("Imagenes/Marte.jpg");
+	
+	background-size: cover;
+	
+}
 
 div#caja1-1{
 	display: flex;
 }
 
+div#caja1-2{
+	border-top: 15px solid rgba(0,0,0,0.7);
+	
+}
+
 div#caja2-1{
 	width: 200px;
 	height: 200px;
+	border-right: 15px solid rgba(0,0,0,0.7);
 }
 
 img{
 	width: 100%;
 	height: 100%;
-	border-radius:100px;
+	/*border-radius:1px;*/
 }
 
 div#caja2-2{
@@ -27,9 +53,25 @@ div#caja2-2{
 	padding-left: 30px;
 }
 
+div#caja3{
+	margin-bottom: 100px;
+	
+	
+}
+
 button{
 	padding:6px;
 	border-radius:10px;
 	background-color:#808000;
 	color:white;width:120px;
+}
+
+h2{
+	
+	color: #ECE10C;
+}
+
+h1{
+	
+	color: #ECE10C;
 }
