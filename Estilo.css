@@ -17,8 +17,8 @@ html{
 div#caja{
 	border: 15px solid rgba(0,0,0,0.7);
 	border-radius: 25px;
-	margin-right: 20%;
-	margin-left: 20%;
+	margin-right: 10%;
+	margin-left: 10%;
 	margin-top: 10%;
 	background-image: url("Imagenes/Marte.jpg");
 	
