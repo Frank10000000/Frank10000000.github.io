@@ -2,8 +2,9 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="Estilo.css">
-	<meta name="veiwport" content="width=device-width, initial-scale=1.0">
+	<meta name="veiwport" content="width=device-width, initial-scale=1">
 	<title>CV de Castillo</title>
 </head>
 <body>	
@@ -13,11 +14,11 @@
 					<img src="Imagenes\Darth Maul.jpg">
 				</div>
 				<div id="caja2-2">
-					<div id="caja3-1">
+					<div id="caja3">
 						<h1>Desolador Frank Castillo</h1>
-						<button id="contacto" onclick="playVid()" type="button">Contacto</button>
-						<button id="direccion" onclick="playVid()" type="button">Direccion</button>
-						<button id="conosimiento" onclick="playVid()" type="button">Conosimieto</button>
+						<button id="contacto">Contacto</button>
+						<button id="direccion">Direccion</button>
+						<button id="conosimiento">Conosimieto</button>
 					</div>
 				</div>	
 			</div>
@@ -26,9 +27,7 @@
 			</div>
 		</div>
 		
-		<audio id="sonido1"><source src="Sonidos/Boton oprimido.mp3"></audio>
-		<audio id="sonido2"><source src="Sonidos/Boton suelto.mp3"></audio>
-
+		<audio src="Sonidos/Fondo.wav" autoplay></audio>
 		
 		<script src="Comportamiento.js"></script>
 </body>
